@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.news-heading {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* position: absolute; */
+  width: 74px;
+  height: 32px;
+  left: 116px;
+  top: 123px;
+  color: #252b42;
+  font-family: "Montserrat";
+}
+
+.news-subheading {
+  /* position: absolute; */
+  width: 331px;
+  height: 28px;
+  left: 116px;
+  top: 165px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #858585;
+}
+.acc-item {
+  height: 24px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #737373;
+}
+
+a, a:hover{
+  color: black;
+  text-decoration: none;
+
+}
+
+#icon {
+  width: 27px;
+  height: 9px;
+  left: 1px;
+  top: 10px;
+
+  background: linear-gradient(96.34deg, #e537b9 0%, #c040df 100%);
+  border-radius: 4.5px;
+}
+
+.carousel-image{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    transition: all 0.5s;
+}
+
+.carousel-image:hover{
+    filter: brightness(50%);
+}
+
+.card{
+    border: none;
+   
+}
+
+#seprator{
+    width: 7px;
+    height: 6px;
+    background-color: gray;
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 6px;
+}
+
